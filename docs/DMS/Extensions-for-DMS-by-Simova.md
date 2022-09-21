@@ -1,0 +1,1 @@
+# Here you can find wiki entries for the configuration of extensions for the app DMS by Simova

@@ -1,0 +1,124 @@
+# Project information
+site_name: Simova Documentation
+site_author: Simova GmbH
+
+# Repository
+#edit_uri: https://dev.azure.com/simova/Product%20Development/_git/Sim-Docs
+
+repo_name: squidfunk/mkdocs-material
+repo_url: https://github.com/squidfunk/mkdocs-material
+
+# Copyright
+copyright: Copyright &copy; 2015 - 2022 Simova GmbH
+
+dev_addr: '0.0.0.0:8000'
+nav:
+    - Home: index.md
+
+theme:
+    name: material
+    logo: assets/logo.png
+    favicon: assets/logo.png
+    palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+        accent: blue
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        accent: blue
+
+    features:
+    # - announce.dismiss
+    - content.code.annotate
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+
+extra:
+    generator: false
+    homepage: https://www.simova.de/
+    social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/simova_gmbh/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/simova.de/
+    - icon: fontawesome/brands/xing
+      link: https://www.xing.com/pages/simovagmbh
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/simova-gmbh/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/simova_gmbh
+
+
+
+nav: 
+  - Home: index.md
+  - Documentation:
+
+    - Core:
+      - CORE/Welcome-to-CORE-by-Simova.md
+      - Setting up API URL: CORE/General/Setting-up-an-API-URL-in-CORE.md
+      - Using the Configuration Wizard: CORE/General/Using-the-Configuration-Wizard.md
+
+    - DMS:
+      - DMS/Welcome-to-DMS-by-Simova.md
+      - Getting Started: 
+        - DMS/Getting-started.md
+        - Overview of business functionality: DMS/Getting-started/Overview-of-business-functionality.md
+        - Trials and Subscriptions: DMS/Getting-started/Trials-and-Subscriptions.md
+      - Architecture: 
+        - DMS/Architecture.md
+        - Reference Architecture Diagram: DMS/Architecture/Reference-Architecture-Diagram.md
+      - Others:
+        - FAQ: DMS/Others/Frequently-asked-questions.md
+        - Resources for Help and Support: DMS/Others/Resources-for-Help-and-Support.md
+        - Resellers and Partners:
+          - DMS/Others/Resellers-and-Partners.md
+          - Becoming a Reseller: DMS/Others/Resellers-and-Partners/Becoming-a-Reseller.md
+          - Finding a Reseller: DMS/Others/Resellers-and-Partners/Finding-a-Reseller.md
+    
+    - CTI: 
+      - 404.md
+
+    - EDS: 
+      - 404.md
+
+    - DPS: 
+      - 404.md
+
+    - XSD: 
+      - 404.md
+
+    - DVS: 
+      - 404.md
+
+    - PLM: 
+      - 404.md
+
+    - TVS: 
+      - 404.md
+
+  - Changelogs:
+    - 404.md
+

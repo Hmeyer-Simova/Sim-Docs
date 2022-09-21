@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "Start Webserver",
+        "command": "python -m mkdocs serve", 
+        "type": "shell",
+        "problemMatcher": [],
+        "group": "build"
+    },
+    {
+        "label": "Install Dependencies",
+        "command": "& '.script\\Install.ps1'", 
+        "type": "shell",
+        "problemMatcher": [],
+        "group": "build"
+    },
+    {
+        "label": "Create Image",
+        "command": "docker build -t sim-docs:latest .", 
+        "type": "shell",
+        "problemMatcher": [],
+        "group": "build"
+    }]
+}
